@@ -8,7 +8,7 @@ A full-stack web application for carbon credit trading, built with a Node.js/Exp
 
 ## Prerequisites
 
-- **Node.js** v20 or higher → https://nodejs.org
+- **Node.js** v22 or higher → https://nodejs.org
 - **PostgreSQL** 13 or higher (pgAdmin 4 recommended)
 
 ---
