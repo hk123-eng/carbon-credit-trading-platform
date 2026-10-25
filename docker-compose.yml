@@ -1,0 +1,39 @@
+# Runs the database and the app together:
+#   JWT_SECRET=<long random string> DB_PASSWORD=<password> docker compose up --build
+# The schema and demo data are loaded automatically the first time the database starts.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: carbon_credit_platform
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d carbon_credit_platform"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  app:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_NAME: carbon_credit_platform
+      DB_USER: postgres
+      DB_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET}
+      APP_URL: ${APP_URL:-http://localhost:3001}
+    ports:
+      - "3001:3001"
+    volumes:
+      - uploads:/data/uploads
+
+volumes:
+  pgdata:
+  uploads:

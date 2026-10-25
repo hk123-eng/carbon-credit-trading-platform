@@ -1,0 +1,681 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Carbon Credit Trading Platform - Fig2 DFD Level 0",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGhOdIVDvp6lso=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Data Flow (Level 0)",
+			"ownedElements": [
+				{
+					"_type": "DFDDataFlowModel",
+					"_id": "AAAAAAGhOdIVKvp9psY=",
+					"_parent": {
+						"$ref": "AAAAAAGhOdIVDvp6lso="
+					},
+					"name": "DataFlowModel1",
+					"ownedElements": [
+						{
+							"_type": "DFDDiagram",
+							"_id": "AAAAAAGhOdIVKvp+MMQ=",
+							"_parent": {
+								"$ref": "AAAAAAGhOdIVKvp9psY="
+							},
+							"name": "2 DFD Level 0 - Context",
+							"ownedViews": [
+								{
+									"_type": "DFDProcessView",
+									"_id": "AAAAAAGhOdIVTfqEWpg=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVTfqFy6M=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVTfqEWpg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 370,
+											"top": 273,
+											"width": 180,
+											"height": 13,
+											"text": "Carbon Credit Trading Platform",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVTfqGTkU=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVTfqEWpg="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 370,
+											"top": 245,
+											"width": 180,
+											"height": 13,
+											"text": "0"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 360,
+									"top": 240,
+									"width": 200,
+									"height": 160,
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVTfqFy6M="
+									},
+									"idLabel": {
+										"$ref": "AAAAAAGhOdIVTfqGTkU="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAGhOdIVYfqPpXM=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVYfqNh3A="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVYvqVX1g=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVYfqPpXM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 30,
+											"top": 290,
+											"width": 130,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVYfqQjys=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVYfqPpXM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 30,
+											"top": 295,
+											"width": 130,
+											"height": 13,
+											"text": "Buyer (company)",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVYfqRuZg=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVYfqPpXM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 20,
+									"top": 285,
+									"width": 150,
+									"height": 70,
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVYfqQjys="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAGhOdIVcfqau6k=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVcfqYnd4="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVcfqgsR4=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVcfqau6k="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 395,
+											"top": 25,
+											"width": 130,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVcfqbKxo=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVcfqau6k="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 395,
+											"top": 30,
+											"width": 130,
+											"height": 26,
+											"text": "Seller (project developer)",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVcfqcy+k=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVcfqau6k="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 385,
+									"top": 20,
+									"width": 150,
+									"height": 70,
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVcfqbKxo="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAGhOdIVf/qlzxo=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVf/qjEoA="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVgPqrxvE=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVf/qlzxo="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 395,
+											"top": 565,
+											"width": 130,
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVf/qm1Gs=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVf/qlzxo="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 395,
+											"top": 570,
+											"width": 130,
+											"height": 13,
+											"text": "Administrator",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGhOdIVf/qn0jo=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVf/qlzxo="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"left": 385,
+									"top": 560,
+									"width": 150,
+									"height": 60,
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVf/qm1Gs="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAGhOdIVj/qwtEI=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVj/quPsQ="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGhOdIVj/qxEcU=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVj/qwtEI="
+											},
+											"model": {
+												"$ref": "AAAAAAGhOdIVj/quPsQ="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 125,
+											"top": 259,
+											"width": 285.95556640625,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGhOdIVj/qwtEI="
+											},
+											"edgePosition": 1,
+											"text": "login, company & KYC data, orders, emissions reports"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGhOdIVTfqEWpg="
+									},
+									"tail": {
+										"$ref": "AAAAAAGhOdIVYfqPpXM="
+									},
+									"lineStyle": 1,
+									"points": "171:302;265:280;359:299",
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVj/qxEcU="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAGhOdIVpfq5nu4=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVpfq34hQ="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGhOdIVpfq62xQ=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVpfq5nu4="
+											},
+											"model": {
+												"$ref": "AAAAAAGhOdIVpfq34hQ="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 113,
+											"top": 368,
+											"width": 296.77197265625,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGhOdIVpfq5nu4="
+											},
+											"edgePosition": 1,
+											"text": "listings, trade confirmations, portfolio, compliance status"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGhOdIVYfqPpXM="
+									},
+									"tail": {
+										"$ref": "AAAAAAGhOdIVTfqEWpg="
+									},
+									"lineStyle": 1,
+									"points": "359:341;265:360;171:338",
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVpfq62xQ="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAGhOdIVuvrCkEY=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVuvrA09o="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGhOdIVuvrDgcM=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVuvrCkEY="
+											},
+											"model": {
+												"$ref": "AAAAAAGhOdIVuvrA09o="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 239,
+											"top": 148,
+											"width": 142.59375,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGhOdIVuvrCkEY="
+											},
+											"edgePosition": 1,
+											"text": "projects, credits, sell orders"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGhOdIVTfqEWpg="
+									},
+									"tail": {
+										"$ref": "AAAAAAGhOdIVcfqau6k="
+									},
+									"lineStyle": 1,
+									"points": "408:91;300:165;376:239",
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVuvrDgcM="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAGhOdIVzPrLU+s=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIVzPrJO6c="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGhOdIVzPrMugE=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIVzPrLU+s="
+											},
+											"model": {
+												"$ref": "AAAAAAGhOdIVzPrJO6c="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 401,
+											"top": 158,
+											"width": 88.080078125,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGhOdIVzPrLU+s="
+											},
+											"edgePosition": 1,
+											"text": "approvals, trades"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGhOdIVcfqau6k="
+									},
+									"tail": {
+										"$ref": "AAAAAAGhOdIVTfqEWpg="
+									},
+									"lineStyle": 1,
+									"points": "460:239;460:91",
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIVzPrMugE="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAGhOdIV4frU6t4=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIV4frSaWY="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGhOdIV4frVoCs=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIV4frU6t4="
+											},
+											"model": {
+												"$ref": "AAAAAAGhOdIV4frSaWY="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 361,
+											"top": 473,
+											"width": 169.32373046875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGhOdIV4frU6t4="
+											},
+											"edgePosition": 1,
+											"text": "KYC, project & report decisions"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGhOdIVTfqEWpg="
+									},
+									"tail": {
+										"$ref": "AAAAAAGhOdIVf/qlzxo="
+									},
+									"lineStyle": 1,
+									"points": "460:559;460:401",
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIV4frVoCs="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAGhOdIV+PrdGX8=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVKvp+MMQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGhOdIV9/rbCw4="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAGhOdIV+PresCM=",
+											"_parent": {
+												"$ref": "AAAAAAGhOdIV+PrdGX8="
+											},
+											"model": {
+												"$ref": "AAAAAAGhOdIV9/rbCw4="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 537,
+											"top": 485,
+											"width": 144.4091796875,
+											"height": 13,
+											"alpha": 1.5707963267948966,
+											"distance": 15,
+											"hostEdge": {
+												"$ref": "AAAAAAGhOdIV+PrdGX8="
+											},
+											"edgePosition": 1,
+											"text": "pending requests, audit trail"
+										}
+									],
+									"font": "Arial;13;0",
+									"parentStyle": false,
+									"head": {
+										"$ref": "AAAAAAGhOdIVf/qlzxo="
+									},
+									"tail": {
+										"$ref": "AAAAAAGhOdIVTfqEWpg="
+									},
+									"lineStyle": 1,
+									"points": "531:401;600:480;499:559",
+									"nameLabel": {
+										"$ref": "AAAAAAGhOdIV+PresCM="
+									}
+								}
+							]
+						},
+						{
+							"_type": "DFDProcess",
+							"_id": "AAAAAAGhOdIVTPqCr5s=",
+							"_parent": {
+								"$ref": "AAAAAAGhOdIVKvp9psY="
+							},
+							"name": "Carbon Credit Trading Platform",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAGhOdIVpfq34hQ=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"name": "listings, trade confirmations, portfolio, compliance status",
+									"source": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"target": {
+										"$ref": "AAAAAAGhOdIVYfqNh3A="
+									}
+								},
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAGhOdIVzPrJO6c=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"name": "approvals, trades",
+									"source": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"target": {
+										"$ref": "AAAAAAGhOdIVcfqYnd4="
+									}
+								},
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAGhOdIV9/rbCw4=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"name": "pending requests, audit trail",
+									"source": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									},
+									"target": {
+										"$ref": "AAAAAAGhOdIVf/qjEoA="
+									}
+								}
+							],
+							"id": "0"
+						},
+						{
+							"_type": "DFDExternalEntity",
+							"_id": "AAAAAAGhOdIVYfqNh3A=",
+							"_parent": {
+								"$ref": "AAAAAAGhOdIVKvp9psY="
+							},
+							"name": "Buyer (company)",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAGhOdIVj/quPsQ=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVYfqNh3A="
+									},
+									"name": "login, company & KYC data, orders, emissions reports",
+									"source": {
+										"$ref": "AAAAAAGhOdIVYfqNh3A="
+									},
+									"target": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									}
+								}
+							]
+						},
+						{
+							"_type": "DFDExternalEntity",
+							"_id": "AAAAAAGhOdIVcfqYnd4=",
+							"_parent": {
+								"$ref": "AAAAAAGhOdIVKvp9psY="
+							},
+							"name": "Seller (project developer)",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAGhOdIVuvrA09o=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVcfqYnd4="
+									},
+									"name": "projects, credits, sell orders",
+									"source": {
+										"$ref": "AAAAAAGhOdIVcfqYnd4="
+									},
+									"target": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									}
+								}
+							]
+						},
+						{
+							"_type": "DFDExternalEntity",
+							"_id": "AAAAAAGhOdIVf/qjEoA=",
+							"_parent": {
+								"$ref": "AAAAAAGhOdIVKvp9psY="
+							},
+							"name": "Administrator",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAGhOdIV4frSaWY=",
+									"_parent": {
+										"$ref": "AAAAAAGhOdIVf/qjEoA="
+									},
+									"name": "KYC, project & report decisions",
+									"source": {
+										"$ref": "AAAAAAGhOdIVf/qjEoA="
+									},
+									"target": {
+										"$ref": "AAAAAAGhOdIVTPqCr5s="
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"documentVersion": 1
+}

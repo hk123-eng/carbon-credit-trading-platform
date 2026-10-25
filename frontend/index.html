@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carbon Credit Platform</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌱</text></svg>" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar hidden">
+      <div class="sidebar-header">
+        <span class="logo">🌱 CarbonTrade</span>
+      </div>
+      <nav id="nav-menu" class="nav-menu"></nav>
+      <div class="sidebar-footer">
+        <div id="user-info" class="user-info"></div>
+        <button onclick="logout()" class="btn btn-ghost btn-sm">Sign Out</button>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main id="main-content" class="main-content">
+      <div id="page-container"></div>
+    </main>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal-overlay" class="modal-overlay hidden" onclick="closeModal()">
+    <div class="modal" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <h3 id="modal-title"></h3>
+        <button onclick="closeModal()" class="btn-close">✕</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast-container"></div>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/auth.js"></script>
+  <script src="/js/charts.js"></script>
+  <script src="/js/pages/login.js"></script>
+  <script src="/js/pages/dashboard.js"></script>
+  <script src="/js/pages/market.js"></script>
+  <script src="/js/pages/trading.js"></script>
+  <script src="/js/pages/portfolio.js"></script>
+  <script src="/js/pages/compliance.js"></script>
+  <script src="/js/pages/admin.js"></script>
+  <script src="/js/pages/company.js"></script>
+  <script src="/js/pages/wallet.js"></script>
+  <script src="/js/pages/retirements.js"></script>
+  <script src="/js/pages/notifications.js"></script>
+  <script src="/js/pages/security.js"></script>
+  <script src="/js/router.js"></script>
+</body>
+</html>

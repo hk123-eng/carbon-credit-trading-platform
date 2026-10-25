@@ -1,0 +1,12 @@
+node_modules/
+.env
+*.log
+backend/uploads/
+database/backups/
+# draw.io backup/temp files
+*.bkp
+*.dtmp
+# Course submissions (kept out of the public repo so plagiarism checkers don't match them)
+docs/*.docx
+docs/*.pptx
+docs/*.pdf
